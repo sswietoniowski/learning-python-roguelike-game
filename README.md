@@ -1,6 +1,6 @@
 # Learning Python - Roguelike Game
 
- Sample implementation of a 'roguelike' game in Python.
+ Sample implementation of a ['roguelike'](https://pl.wikipedia.org/wiki/Roguelike) game in Python.
  
  ## Learning Resources
  
