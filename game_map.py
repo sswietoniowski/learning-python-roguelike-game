@@ -8,11 +8,15 @@ from tcod.console import Console
 import tile_types
 
 if TYPE_CHECKING:
+    from engine import Engine
     from entity import Entity
 
 
 class GameMap:
-    def __init__(self, width: int, height: int, entities: Iterable[Entity] = ()):
+    def __init__(
+        self, engine: Engine, width: int, height: int, entities: Iterable[Entity] = ()
+    ):
+        self.engine = engine
         self.width, self.height = width, height
         self.entities = set(entities)
         self.tiles = np.full((width, height), fill_value=tile_types.wall, order="F")
@@ -27,7 +31,9 @@ class GameMap:
         self.tiles[30:33, 22] = tile_types.wall
 
     def get_blocking_entity_at_location(
-        self, location_x: int, location_y: int
+        self,
+        location_x: int,
+        location_y: int,
     ) -> Optional[Entity]:
         for entity in self.entities:
             if (
