@@ -33,4 +33,3 @@ pip freeze > requirements.txt
 Based on [Roguelike Python Tutorial](https://youtube.com/playlist?list=PL43PN07AM4J9N2eiVn43s9h7uJgbZH9Gp) [:file_folder:](http://rogueliketutorials.com/).
 
 Original code can be found [here](https://github.com/TStand90/tcod_tutorial_v2).
-
