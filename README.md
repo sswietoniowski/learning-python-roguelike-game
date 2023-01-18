@@ -28,6 +28,12 @@ To save dependencies (if you want to change them) run:
 pip freeze > requirements.txt
 ```
 
+To run the game run (be sure to activate venv)):
+
+```bash
+python main.py
+```
+
 ## Learning Resources
 
 Based on [Roguelike Python Tutorial](https://youtube.com/playlist?list=PL43PN07AM4J9N2eiVn43s9h7uJgbZH9Gp) [:file_folder:](http://rogueliketutorials.com/).
