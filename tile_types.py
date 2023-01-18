@@ -51,6 +51,6 @@ wall = new_tile(
 down_stairs = new_tile(
     walkable=True,
     transparent=True,
-    dark=(ord(">"), (100, 100, 100), (0, 0, 0)),
-    light=(ord(">"), (200, 200, 200), (0, 0, 0)),
+    dark=(ord(">"), (0, 0, 100), (50, 50, 150)),
+    light=(ord(">"), (255, 255, 255), (200, 180, 50)),
 )
