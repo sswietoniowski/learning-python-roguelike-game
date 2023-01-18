@@ -28,7 +28,7 @@ To save dependencies (if you want to change them) run:
 pip freeze > requirements.txt
 ```
 
-To run the game run (be sure to activate venv)):
+To start the game run (be sure to activate venv)):
 
 ```bash
 python main.py
