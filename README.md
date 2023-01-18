@@ -2,6 +2,14 @@
 
 This is sample implementation of a ['roguelike'](https://pl.wikipedia.org/wiki/Roguelike) game in Python.
 
+Game menu:
+
+![Main menu](./img/menu.png))]
+
+Gameplay:
+
+![Gameplay](./img/gameplay.png)
+
 This project is using venv (virtual environment) to manage dependencies.
 
 To install dependencies run:
